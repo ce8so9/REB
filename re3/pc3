@@ -1,0 +1,7 @@
+edx = edi | edi >> 1
+eax = edx | edx >> 2
+edx = eax | eax >> 4
+eax = edx | edx >> 8
+edx = eax | eax >> 16
+eax = (edx * cst) >> 26
+ret v[rax*4 + 0]
