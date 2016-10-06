@@ -1,5 +1,5 @@
 un64:
-	nasm -felf64 1.asm && gcc call.c 1.o && ./a.out
+	nasm -felf64 -g 1.asm && gcc -g call.c 1.o && ./a.out
 
 .PHONY: clean
 
