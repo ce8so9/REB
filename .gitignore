@@ -1,5 +1,6 @@
 *.pdf
 a.out
 *.o
+*.s
 .gdb_history
 peda-session-a.out.txt
